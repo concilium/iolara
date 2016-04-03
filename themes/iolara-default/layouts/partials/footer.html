@@ -1,0 +1,34 @@
+
+	<footer role="contentinfo">
+		<div class="hr"></div>
+		<div class="footer-links">
+		    <div class="copyright">
+    			{{ with .Site.Params.google_link }}<a href="{{ . }}" target="_blank"><img src="/images/smi_google_50x50.png" width="25" height="25"></a>{{ end }}
+				{{ with .Site.Params.facebook_link }}<a href="{{ . }}" target="_blank"><img src="/images/smi_facebook_50x50.png" width="25" height="25"></a>{{ end }}
+				{{ with .Site.Params.instagram_link }}<a href="{{ . }}" target="_blank"><img src="/images/smi_instagram_50x50.png" width="25" height="25"></a>{{ end }}
+				{{ with .Site.Params.twitter_link }}<a href="{{ . }}" target="_blank"><img src="/images/smi_twitter_50x50.png" width="25" height="25"></a>{{ end }}<br /><br />
+				{{ .Site.Params.copyright | safeHTML }}
+			</div>
+			<br />
+			<div class="license">
+			    {{ .Site.Params.license | safeHTML }}
+			</div>
+		</div>
+	</footer>
+
+</div>
+
+{{ with .Site.Params.analytics }}<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', '{{ . }}', 'auto');
+	ga('send', 'pageview');
+</script>{{ end }}
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+</body>
+</html>

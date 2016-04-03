@@ -1,9 +1,8 @@
 Pending stuff not to be forgotten:
 
-*   Figure out which command-line switch lets me use "_config.toml" as the config path.
 *   Add links to Google Analytics (sign up) and MMABP blog?
-*   Get a proper logo in place.
-*   Set up production deployment to AWS S3.
+*   Get flow notifications routing to Hipchat room
+*   Replace LICENSE_content.txt link-to verbiage with full license text?
 
 Should probably switch to using GitHub issues for this soonish.
 

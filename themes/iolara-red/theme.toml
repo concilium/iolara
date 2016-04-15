@@ -1,0 +1,17 @@
+#
+# Iolara Red
+# Developed for the Iolara project by Mike Simpson.
+#
+
+name        = "Iolara Red"
+license     = "BSD-2-Clause"
+licenselink = "https://github.com/concilium/iolara/blob/master/LICENSE_code.txt"
+description = "Default theme developed for the Iolara project."
+homepage    = "https://github.com/concilium/iolara"
+tags        = [ "", "" ]
+features    = [ "", "" ]
+min_version = 0.15
+
+[author]
+  name      = "Mike Simpson"
+  homepage  = "https://www.white-knight.org/~stendhal9/"

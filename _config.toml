@@ -1,18 +1,26 @@
-baseurl = "http://iolara.white-knight.org/"
-title = "Iolara"
-author = "Mike Simpson"
-languageCode = "en-us"
+baseurl      = "http://iolara.white-knight.org/"
+title        = "Iolara"
+languageCode = "en"
 
 [params]
-  logo      = "/images/iolara_240x150.png"
-  copyright = "Copyright &copy; 2016 Mike Simpson All Rights Reserved"
-  license   = '''
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><br />
-<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Iolara campaign content</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:stendhal9@white-knight.org" property="cc:attributionName" rel="cc:attributionURL">Mike Simpson</a> is licensed under a<br />
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.<br />
-Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="http://iolara.white-knight.org/" rel="dct:source">http://iolara.white-knight.org/</a>.<br />
-'''
+  author         = "Mike Simpson"
+  email          = "stendhal9@white-knight.org"
+  subtitle       = "A D&D 5th Ed. Campaign Setting"
+  favicon        = "/images/iolara.ico"
+  logo           = "/images/iolara_150x150.png"
   google_link    = "https://plus.google.com/u/0/105164667603259889307"
   facebook_link  = "https://www.facebook.com/stendhal9"
   instagram_link = "https://www.instagram.com/stendhal999"
   twitter_link   = "https://twitter.com/stendhal9"
+  license        = '''
+<p>
+  <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />
+  <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Iolara campaign content</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:stendhal9@white-knight.org" property="cc:attributionName" rel="cc:attributionURL">Mike Simpson</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="http://iolara.white-knight.org/" rel="dct:source">http://iolara.white-knight.org/</a>.<br />
+</p>
+'''
+  copyright      = '''
+<p>
+  Copyright &copy; 2016 Mike Simpson<br/>
+  All Rights Reserved<br />
+</p>
+'''

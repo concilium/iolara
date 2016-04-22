@@ -1,0 +1,28 @@
+{{ "<!-- [ begin layouts/index.html ] -->" | safeHTML }}
+{{ partial "header.html" . }}
+      
+      {{ "<!-- begin main content -->" | safeHTML }}
+      <main>
+
+        <div class="row">
+          <div class="col s6 center">
+            {{ range where .Site.Pages "Section" "pages" }}
+            <article itemscope itemtype="http://schema.org/Article">
+			  <p itemprop="headline"><a href="{{ .RelPermalink }}">{{ .Title }}</a></p>
+            </article>
+            {{ end }}
+          </div>
+          <div class="col s6 center">
+            {{ range where .Site.Pages "Section" "posts" }}
+            <article itemscope itemtype="http://schema.org/BlogPosting">
+			  <p itemprop="headline"><a href="{{ .RelPermalink }}">{{ .Title }}</a></p>
+            </article>
+            {{ end }}
+          </div>
+        </div>
+      
+      </main>
+      {{ "<!-- end main content -->" | safeHTML }}
+
+{{ partial "footer.html" . }}
+{{ "<!-- [ end layouts/index.html ] -->" | safeHTML }}

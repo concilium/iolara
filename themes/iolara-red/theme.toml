@@ -14,4 +14,5 @@ min_version = 0.15
 
 [author]
   name      = "Mike Simpson"
+  email     = "stendhal9@white-knight.org"
   homepage  = "https://www.white-knight.org/~stendhal9/"

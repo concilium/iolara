@@ -23,7 +23,18 @@ The current authoring (i.e., development) path is:
     format) in a Git local repository, using the
     [Git Flow](http://nvie.com/posts/a-successful-git-branching-model/)
     method and naming conventions along with a couple of standard
-    development tools (Eclipse, SourceTree).
+    development tools (SmartGit, Eclipse). Local development is
+    done on a MacBook Pro; the prerequisite installation of Go and
+    Hugo were done via Homebrew:
+    
+        % /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+        % brew update
+        % brew install go
+        % brew install hugo
+          
+    When I'm working on my local copy, I invoke the Hugo server as:
+    
+        % hugo server --config="_config.toml" --theme="iolara-red" --buildDrafts
     
 *   Commits to the master branch (what Git Flow calls "finishing
     a release") are pushed to the corresponding build repository

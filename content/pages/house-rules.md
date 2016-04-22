@@ -1,8 +1,11 @@
 +++
-date = "2016-04-02T13:04:15-07:00"
-draft = false
-title = "House Rules"
-
+title       = "House Rules"
+description = "TBD"
+date        = "2012-04-02"
+modified    = ""
+tags        = []
+categories  = []
+draft       = true
 +++
 
 ## Foundation
@@ -23,4 +26,19 @@ since the Iolara setting modifies stock assumptions considerably.
 
 ## Modifications
 
-(None at this time.)
+### Inspiration
+
+*   Modifies: DMG pp. 240-241
+*   Notes:
+    *   Inspiration is awarded for individual actions per the suggestions
+        in the DMG (good roleplaying, heroic accomplishments, important
+        victories); awarded inspiration is pooled and available for use by
+        any player, with the consent of the other players present.
+    *   Inspiration is tracked using the metallic "inspiration dice"
+        provided by the DM; one die is added to the pool for each award,
+        and one die is removed from the pool, rolled as the advantage die,
+        and returned to the DM each time inspiration is used.
+    *   A maximum of five inspiration dice can be in the party pool at
+        any given time.
+    *   Unused inspiration remaining at the end of an adventure is lost.
+

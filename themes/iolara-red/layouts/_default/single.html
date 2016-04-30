@@ -1,1 +1,13 @@
-SINGLE GOES HERE
+{{ "<!-- [ begin layouts/pages/single.html ] -->" | safeHTML }}
+{{ partial "header.html" . }}
+      
+      {{ "<!-- begin main content -->" | safeHTML }}
+      <main>
+        <article id="content">
+          {{ .Content }}
+        </article>
+      </main>
+      {{ "<!-- end main content -->" | safeHTML }}
+
+{{ partial "footer.html" . }}
+{{ "<!-- [ end layouts/pages/single/index.html ] -->" | safeHTML }}

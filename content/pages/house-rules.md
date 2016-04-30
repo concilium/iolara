@@ -2,9 +2,6 @@
 title       = "House Rules"
 description = "TBD"
 date        = "2012-04-02"
-modified    = ""
-tags        = []
-categories  = []
 draft       = true
 +++
 

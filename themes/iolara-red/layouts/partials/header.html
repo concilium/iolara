@@ -18,11 +18,11 @@
   </head>
   <body>
     <div class="container">
+      <div class="row">
+        <div class="col s12 center">
 
-      {{ "<!-- begin header content -->" | safeHTML }}
-      <header>
-        <div class="row">
-          <div class="col s12 center">
+          {{ "<!-- begin header content -->" | safeHTML }}
+          <header>
             <a href="/"><img class="circle z-depth-3" src="{{ .Site.Params.logo }}" /></a><br />
             {{ if .IsHome }}
             <h1>{{ .Site.Title }}</h1>
@@ -30,9 +30,9 @@
             {{ else }}
             <h2>{{ .Title }}</h2>
             {{ end }}
-          </div>
-        </div>
-      </header>
-      {{ "<!-- end header content -->" | safeHTML }}
+          </header>
+          {{ "<!-- end header content -->" | safeHTML }}
       
+        </div>
+      </div>
       {{ "<!-- [ end layouts/partials/header.html ] -->" | safeHTML }}

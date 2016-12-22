@@ -1,19 +1,19 @@
 +++
 title       = "House Rules"
-description = "TBD"
+description = "Canon definition of rules in effect for this campaign setting."
 date        = "2012-04-02"
-draft       = true
+draft       = false
 +++
 
-## Foundation
+### Foundation
 
 The Iolara campaign house rules are based upon the three core rule books
-for the [Dungeons & Dragons 5th Edition](http://dnd.wizards.com/) roleplaying
-game, as published by [Wizards of the Coast](http://company.wizards.com/):
+for the [Dungeons & Dragons 5th Edition][dnd5] roleplaying game, as
+published by [Wizards of the Coast][wotc]:
 
-[![Monster Manual](/images/dnd_books_mm.png)](http://dnd.wizards.com/products/tabletop-games/rpg-products/monster-manual)&nbsp;&nbsp;&nbsp;
-[![Player's Handbook](/images/dnd_books_phb.png)](http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook)&nbsp;&nbsp;&nbsp;
-[![Dungeon Master's Guide](/images/dnd_books_dmg.png)](http://dnd.wizards.com/products/tabletop-games/rpg-products/dungeon-masters-guide)&nbsp;&nbsp;&nbsp;
+> [![Monster Manual](/images/dnd_books_mm.png)][mm]&nbsp;&nbsp;&nbsp;
+> [![Player's Handbook](/images/dnd_books_phb.png)][phb]&nbsp;&nbsp;&nbsp;
+> [![Dungeon Master's Guide](/images/dnd_books_dmg.png)][dmg]&nbsp;&nbsp;&nbsp;
 
 The content of these manuals (as it pertains to mechanics) is considered 
 canon unless otherwise superseded by specific rule modifications as
@@ -21,9 +21,9 @@ noted below.  Content related to campaign milieu (specifics about races,
 historical events, etc.) should be taken with a large grain of salt,
 since the Iolara setting modifies stock assumptions considerably. 
 
-## Modifications
+### Modifications
 
-### Inspiration
+#### Inspiration
 
 *   Modifies: DMG pp. 240-241
 *   Notes:
@@ -39,3 +39,9 @@ since the Iolara setting modifies stock assumptions considerably.
         any given time.
     *   Unused inspiration remaining at the end of an adventure is lost.
 
+
+[wotc]: http://company.wizards.com/ "Wizards of the Coast"
+[dnd5]: http://dnd.wizards.com/ "Dungeons & Dragons 5th Edition" 
+[mm]:  http://dnd.wizards.com/products/tabletop-games/rpg-products/monster-manual "Monster Manual"
+[phb]: http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook "Player's Handbook"
+[dmg]: http://dnd.wizards.com/products/tabletop-games/rpg-products/dungeon-masters-guide "Dungeon Master's Guide"

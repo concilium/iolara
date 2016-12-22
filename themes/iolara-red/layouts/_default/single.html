@@ -1,13 +1,21 @@
-{{ "<!-- [ begin layouts/pages/single.html ] -->" | safeHTML }}
+{{ "<!-- [ begin layouts/_default/single.html ] -->" | safeHTML }}
 {{ partial "header.html" . }}
-      
-      {{ "<!-- begin main content -->" | safeHTML }}
-      <main>
-        <article id="content">
-          {{ .Content }}
-        </article>
-      </main>
-      {{ "<!-- end main content -->" | safeHTML }}
+
+      <div class="row">
+        <div class="col s8 offset-s2">
+          <div class="divider"></div>
+        
+          {{ "<!-- begin main content -->" | safeHTML }}
+          <main>
+            <article>
+              {{ .Content }}
+            </article>
+          </main>
+          {{ "<!-- end main content -->" | safeHTML }}
+
+          <div class="divider"></div>
+        </div>
+      </div>
 
 {{ partial "footer.html" . }}
-{{ "<!-- [ end layouts/pages/single/index.html ] -->" | safeHTML }}
+{{ "<!-- [ end layouts/_default/single.html ] -->" | safeHTML }}

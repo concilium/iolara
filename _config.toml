@@ -8,10 +8,15 @@ languageCode = "en"
   subtitle       = "A D&D 5th Ed. Campaign Setting"
   favicon        = "/images/iolara.ico"
   logo           = "/images/iolara_150x150.png"
-  google_link    = "https://plus.google.com/u/0/105164667603259889307"
-  facebook_link  = "https://www.facebook.com/stendhal9"
-  instagram_link = "https://www.instagram.com/stendhal999"
-  twitter_link   = "https://twitter.com/stendhal9"
+  social         = '''
+<p>
+  <a href="https://plus.google.com/u/0/105164667603259889307" target="_blank"><img src="/images/smi_google.png" width="25" height="25"></a>
+  <a href="https://www.facebook.com/stendhal9" target="_blank"><img src="/images/smi_facebook.png" width="25" height="25"></a>
+  <a href="https://www.instagram.com/stendhal999" target="_blank"><img src="/images/smi_instagram.png" width="25" height="25"></a>
+  <a href="https://twitter.com/stendhal9" target="_blank"><img src="/images/smi_twitter.png" width="25" height="25"></a><br />
+  Mike Simpson participates in Google, Facebook, Instagram, and Twitter social media outlets.<br />
+</p>
+'''
   license        = '''
 <p>
   <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />
